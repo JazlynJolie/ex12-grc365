@@ -30,6 +30,26 @@ nav a:hover {
 
 /* Title */
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 100px;
+}
+
+.companyname {
+  font-size: 54px;
+  font-weight: 900;
+  margin: 0px 0px -20px;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  color: #86A0B8;
+  max-width: 400px
+}
+
 /* Team of Coders */
 
 /* Our Projects */
