@@ -1,5 +1,35 @@
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
+
+/* Navigation */
+html {
+  font-family: "Outfit", sans-serif;
+  background-color: #FFFFFF;
+  color: #1E2C4A;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #86A0B8;
+  padding: 15px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #1E2C4A;
+  text-decoration: none;
+}
+
+/* Title */
+
+/* Team of Coders */
+
+/* Our Projects */
