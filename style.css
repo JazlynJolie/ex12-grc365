@@ -30,7 +30,6 @@ html {
 }
 
 /* Title */
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -60,18 +59,26 @@ html {
   font-size: 24px;
   font-weight: 500;
   color: #86A0B8;
+  gap: 5px;
   margin: 10px 100px 120px;
+}
+
+.codersection img{
+  width: auto;
+  height: 200px;
+  border-radius: 100px;
 }
 
 .teamtitle {
   font-size: 36px;
-  margin: 0px 100px 0px;
+  margin: 0px 100px 40px;
 }
 
 /* Our Projects */
 .projects {
 display: flex;
-flex-direction: row;
+justify-content: space-around;
+align-items: center;
 text-align: center;
 font-size: 24px;
 font-weight: 500;
@@ -80,10 +87,22 @@ gap: 10px;
 margin: 10px 100px 120px;
 }
 
+.ourprojects {
+  font-size: 32px;
+  margin: 0px 100px 40px;
+  color: #1E2C4A;
+}
+
+.projects img {
+  width: auto;
+  height: 230px;
+  border-radius: 50px;
+}
+
 /* Footer */
 footer {
   background-color: #EDF0F2;
-  padding: 30px 60px;
+  padding: 30px 100px;
 }
 
 .footercontent {
@@ -116,9 +135,16 @@ footer {
   gap: 10px;
 }
 
+.actionbutton {
+  background-color: #1E2C4A;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
 .footercopyright a {
   color: #86A0B8;
   text-decoration: none;
   font-size: 12px;
 }
-
