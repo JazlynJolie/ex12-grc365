@@ -5,8 +5,8 @@
 html {
   width: 100%;
   font-family: "Outfit", sans-serif;
-  background-color: #FFFFFF;
-  color: #1E2C4A;
+  background-color: #ffffff;
+  color: #b55522;
   font-size: 16px;
 }
 
@@ -15,7 +15,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #86A0B8;
+  background-color: #b55522;
   padding: 15px;
 }
 
@@ -25,7 +25,7 @@ html {
 }
 
 .topbar a:hover {
-  color: #1E2C4A;
+  color: #b55522;
   text-decoration: none;
 }
 
@@ -46,11 +46,16 @@ html {
 .description {
   font-size: 24px;
   font-weight: 500;
-  color: #86A0B8;
+  color: #f2b08d;
   max-width: 400px
 }
 
 /* Team of Coders */
+.team-container {
+  background-color: #EDF0F2;
+  padding: 30px 0px
+}
+
 .codersection {
   display: flex;
   justify-content: space-around;
@@ -58,9 +63,9 @@ html {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  color: #86A0B8;
+  color: #f2b08d;
   gap: 5px;
-  margin: 10px 100px 120px;
+  margin: 10px 100px 0px;
 }
 
 .codersection img{
@@ -77,20 +82,20 @@ html {
 /* Our Projects */
 .projects {
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 align-items: center;
 text-align: center;
 font-size: 24px;
 font-weight: 500;
-color: #86A0B8;
+color: #f2b08d;
 gap: 10px;
-margin: 10px 100px 120px;
+margin: 50px 100px 120px;
 }
 
 .ourprojects {
   font-size: 32px;
-  margin: 0px 100px 40px;
-  color: #1E2C4A;
+  margin: 100px 100px 40px;
+  color: #b55522;
 }
 
 .projects img {
@@ -101,7 +106,7 @@ margin: 10px 100px 120px;
 
 /* Footer */
 footer {
-  background-color: #EDF0F2;
+  background-color: #f2b08d;
   padding: 30px 100px;
 }
 
@@ -120,12 +125,12 @@ footer {
 
 .footerlinks a {
   text-decoration: none;
-  color: #1E2C4A;
+  color: #ffffff;
   font-size: 14px;
 }
 
 .footerlinks a:hover {
-  color: #86A0B8;
+  color: #b55522;
 }
 
 .footercopyright {
@@ -136,15 +141,16 @@ footer {
 }
 
 .actionbutton {
-  background-color: #1E2C4A;
-  color: #FFFFFF;
+  background-color: #b55522;
+  color: #fef2ec;
   padding: 10px 30px;
+  border: hidden;
   border-radius: 50px;
   font-weight: 700;
 }
 
 .footercopyright a {
-  color: #86A0B8;
+  color: #fef2ec;
   text-decoration: none;
   font-size: 12px;
 }
